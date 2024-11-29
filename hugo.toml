@@ -1,0 +1,44 @@
+baseURL = 'https://blog.kyngo.net/'
+languageCode = 'es-es'
+title = 'El blog de Kyngo'
+theme = "terminal"
+defaultContentLanguage = 'es'
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    title = "El blog de Kyngo"
+    copyright = "(c) Arnau Martín :: Web creada usando Hugo"
+
+    [languages.es.params]
+      subtitle = "Programación, informática avanzada, salud mental, mi vida personal en general."
+      owner = "Arnau Martín"
+      keywords = ""
+      copyright = "Creado por Arnau"
+      menuMore = "Más"
+      readMore = "Leer más... o no"
+      readOtherPosts = "Otros posts"
+      newerPosts = "Posts más nuevos"
+      olderPosts = "Posts más viejos"
+      missingContentMessage = "No encontrado"
+      missingBackButtonLabel = "Vuelve al inicio"
+      minuteReadingTime = "minutos"
+      words = "palabras"
+
+      [languages.es.params.logo]
+        logoText = "El blog de Kyngo"
+        logoHomeLink = "/"
+
+      [languages.es.menu]
+        [[languages.es.menu.main]]
+          identifier = "about"
+          name = "Acerca de mí"
+          url = "https://kyngo.net"
+        [[languages.es.menu.main]]
+          identifier = "github"
+          name = "Github"
+          url = "https://github.com/kyngo"
+        [[languages.es.menu.main]]
+          identifier = "Linkedin"
+          name = "Linkedin"
+          url = "https://linkedin.com/in/arnaumartin"
